@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+header{
+  height: auto;
+  width: 100%;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header nav{
+  margin: 8px;
+  padding: 8px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+header nav .logo a{
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: orange;
+}
+header nav .logo a:hover{
+  color: #3882f6;
+}
+header nav .menu{
+  width: auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+header nav .menu li a{
+  color: #e5e7eb;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+header nav .menu li a:hover{
+  border-bottom: 1px solid #3882f6;
+}
+header .hero{
+  margin: 8px;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .hero .box{
+  margin-top: 35px;
+  color: #f9faf8;
+  width: 600px;
+  height: 300px
+}
+header .hero .box h1{
+  font-size: 48px;
+}
+button{
+  background-color: #3882f6;
+  width: 120px;
+  height: 40px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: none;
+}
+button a{
+  color: #f9faf8;
+}
+button a:hover{
+  font-size: 24px;
+  transition: .2s ease-out;
+}
+.info{
+  background-color:#f9faf8;
+  height: 400px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.info .box-container{
+  display: flex;
+  gap: 10px;
+}
+.info .box-container h3{
+  text-align: center;
+}
+.info .box-container .info-box{
+  border: 4px solid #3882f6;
+  width: 280px;
+  height: 260px;
+  border-radius: 15px;
+}
+.quote{
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  height: 280px;
+}
+.quote .quote-container{
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.quote q, p{
+  letter-spacing: 1px;
+}
+.call-to-action{
+  border: 4px solid orchid;
+  background-color:#3882f6;
+  color: #f9faf8;
+  margin: 100px 320px 100px 320px;
+  padding: 80px;
+  border-radius: 10px;
+}
+.call-to-action .btn{
+  border: 1px solid #f9faf8;
+  margin-left: 200px;
+}
+.call-to-action a{
+  color: #f9faf8;
+}
+footer{
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
